@@ -1,0 +1,6 @@
+# Clone
+git clone --bare git@github.com:slanucha/ublue_dotfiles.git $HOME/.dotfiles
+
+# Setup
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+dotfiles checkout
